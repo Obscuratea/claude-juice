@@ -1,0 +1,23 @@
+[package]
+name = "claude-juice"
+version = "0.1.0"
+description = "A PC case full of Claude juice that drains with your usage limit"
+edition = "2021"
+
+[lib]
+name = "claude_juice_lib"
+crate-type = ["staticlib", "cdylib", "rlib"]
+
+[build-dependencies]
+tauri-build = { version = "2", features = [] }
+
+[dependencies]
+tauri = { version = "2", features = ["macos-private-api"] }
+serde_json = "1"
+dirs = "6"
+
+[profile.release]
+codegen-units = 1
+lto = true
+opt-level = "s"
+strip = true

@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <defs>
+    <linearGradient id="j" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#ffb04a"/>
+      <stop offset="1" stop-color="#d9601a"/>
+    </linearGradient>
+    <clipPath id="g"><rect x="134" y="118" width="196" height="296" rx="14"/></clipPath>
+  </defs>
+  <polygon points="104,84 172,48 432,48 364,84" fill="#3b4048"/>
+  <polygon points="364,84 432,48 432,424 364,460" fill="#24272c"/>
+  <rect x="104" y="84" width="260" height="376" rx="16" fill="#2b2f35"/>
+  <rect x="128" y="112" width="208" height="308" rx="18" fill="#0d0e10"/>
+  <g clip-path="url(#g)">
+    <rect x="134" y="118" width="196" height="296" fill="#111316"/>
+    <path d="M130,236 Q180,212 232,236 T334,236 L334,420 L130,420 Z" fill="url(#j)"/>
+    <circle cx="190" cy="330" r="7" fill="#ffe0b0" fill-opacity="0.5"/>
+    <circle cx="262" cy="290" r="5" fill="#ffe0b0" fill-opacity="0.5"/>
+  </g>
+  <g transform="matrix(1,-0.5,0,1,364,84)" stroke="#d97757" stroke-width="7" stroke-linecap="round">
+    <line x1="34" y1="58" x2="34" y2="102"/><line x1="12" y1="80" x2="56" y2="80"/>
+    <line x1="18" y1="64" x2="50" y2="96"/><line x1="50" y1="64" x2="18" y2="96"/>
+  </g>
+</svg>
